@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router,  Route, Link} from "react-router-dom";
 import EstudiosR from "./component/EstudiosR";
 import EditStudent from "./component/edit-student.component";
 import ExperienciaL from "./component/ExperienciaL";
@@ -91,10 +91,10 @@ function App() {
               <Row>
                 <Col md={12}>
                     <div className="wrapper">
-                      <Switch>
+                      
                           <Route
                             exact
-                            path="/EstudiosR.js"
+                            path="/"
                             component={(props) =><EstudiosR{...props} />}
                           />
                           <Route
@@ -165,7 +165,7 @@ function App() {
                             path="/Home.js"
                             component={(props) =><Home{...props} />}
                           />
-                      </Switch>
+                      
                     </div>
                 </Col>
               </Row>
