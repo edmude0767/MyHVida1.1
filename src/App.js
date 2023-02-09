@@ -34,7 +34,6 @@ function App() {
         <header className="App-header">
           <Navbar bg="primary" variant="dark">
           <Container>
-        
             <Nav>
             <Nav className = "justify-content-end" >
                           
@@ -95,73 +94,73 @@ function App() {
                           <Route
                             exact
                             path="/"
-                            component={(props) =><EstudiosR{...props} />}
+                            component={(props) =><MiPresentacion{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/EstudiosR.js"
                             component={(props) =><EstudiosR{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/edit-student"
                             component={(props) =><EditStudent{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/MiPresentacion.js"
                             component={(props) =><MiPresentacion{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/ExperienciaL.js"
                             component={(props) =><ExperienciaL{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/Antecedentes.js"
                             component={(props) =><Antecedentes{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/Familia.js"
                             component={(props) =><Familia{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/projpowerbi1.component.js"
                             component={(props) =><ProjPowerBI1{...props} />}
                           />
 
                           <Route
-                            exact
+                            
                             path="/Excel.js"
                             component={(props) =><Excel{...props} />}
                           />
 
                             <Route
-                            exact
+                            
                             path="/Proyecto1.js"
                             component={(props) =><Proyecto1{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/Proyecto2.js"
                             component={(props) =><Proyecto2{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/Proyecto3.js"
                             component={(props) =><Proyecto3{...props} />}
                           />
 
                           <Route
-                            exact
+                            
                             path="/Proyecto4.js"
                             component={(props) =><Proyecto4{...props} />}
                           />
                           <Route
-                            exact
+                            
                             path="/Home.js"
                             component={(props) =><Home{...props} />}
                           />
