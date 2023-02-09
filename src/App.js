@@ -94,7 +94,7 @@ function App() {
                       <Switch>
                           <Route
                             exact
-                            path="/"
+                            path="/EstudiosR.js"
                             component={(props) =><EstudiosR{...props} />}
                           />
                           <Route
