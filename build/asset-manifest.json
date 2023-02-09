@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MyHVida1.1/static/css/main.fb63492d.css",
+    "main.js": "/MyHVida1.1/static/js/main.d0c11060.js",
+    "index.html": "/MyHVida1.1/index.html",
+    "main.fb63492d.css.map": "/MyHVida1.1/static/css/main.fb63492d.css.map",
+    "main.d0c11060.js.map": "/MyHVida1.1/static/js/main.d0c11060.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb63492d.css",
+    "static/js/main.d0c11060.js"
+  ]
+}
