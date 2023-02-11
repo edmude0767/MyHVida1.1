@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MyHVida1.1/static/css/main.b0067960.css",
-    "main.js": "/MyHVida1.1/static/js/main.3fc912da.js",
+    "main.js": "/MyHVida1.1/static/js/main.f18baf48.js",
     "index.html": "/MyHVida1.1/index.html",
     "main.b0067960.css.map": "/MyHVida1.1/static/css/main.b0067960.css.map",
-    "main.3fc912da.js.map": "/MyHVida1.1/static/js/main.3fc912da.js.map"
+    "main.f18baf48.js.map": "/MyHVida1.1/static/js/main.f18baf48.js.map"
   },
   "entrypoints": [
     "static/css/main.b0067960.css",
-    "static/js/main.3fc912da.js"
+    "static/js/main.f18baf48.js"
   ]
 }
