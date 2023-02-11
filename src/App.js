@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router,  Route, Link} from "react-router-dom";
+import {BrowserRouter as Router,Switch,  Route, Link} from "react-router-dom";
 import EstudiosR from "./component/EstudiosR";
 import EditStudent from "./component/edit-student.component";
 import ExperienciaL from "./component/ExperienciaL";
@@ -18,13 +18,11 @@ import MiPresentacion from "./component/MiPresentacion";
 import Familia from "./component/Familia";
 import ProjPowerBI1 from "./component/projpowerbi1.component";
 import Excel from "./component/Excel";
-import Proyecto1 from "./component/Proyecto1"
-import Proyecto2 from "./component/Proyecto2"
-import Proyecto3 from "./component/Proyecto3"
-import Proyecto4 from "./component/Proyecto4"
-import Home from "./component/Home"
-
-
+import Proyecto1 from "./component/Proyecto1";
+import Proyecto2 from "./component/Proyecto2";
+import Proyecto3 from "./component/Proyecto3";
+import Proyecto4 from "./component/Proyecto4";
+import Home from "./component/Home";
 
 function App() {
   
@@ -90,85 +88,93 @@ function App() {
               <Row>
                 <Col md={12}>
                     <div className="wrapper">
-                      
+                      <Switch>                        
                           <Route
                             exact
                             path="/"
                             component={(props) =><MiPresentacion{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/EstudiosR.js"
                             component={(props) =><EstudiosR{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/edit-student"
                             component={(props) =><EditStudent{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/MiPresentacion.js"
                             component={(props) =><MiPresentacion{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/ExperienciaL.js"
                             component={(props) =><ExperienciaL{...props} />}
                           />
+                          
                           <Route
-                            
+                            exact
                             path="/Antecedentes.js"
                             component={(props) =><Antecedentes{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/Familia.js"
                             component={(props) =><Familia{...props} />}
                           />
                           <Route
-                            
+                            exact
                             path="/projpowerbi1.component.js"
                             component={(props) =><ProjPowerBI1{...props} />}
                           />
 
                           <Route
-                            
+                            exact
                             path="/Excel.js"
                             component={(props) =><Excel{...props} />}
                           />
 
-                            <Route
-                            
+                          <Route
+                            exact
                             path="/Proyecto1.js"
                             component={(props) =><Proyecto1{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/Proyecto2.js"
                             component={(props) =><Proyecto2{...props} />}
                           />
                           <Route
-                            
+                            exact
                             path="/Proyecto3.js"
                             component={(props) =><Proyecto3{...props} />}
                           />
 
                           <Route
-                            
+                            exact
                             path="/Proyecto4.js"
                             component={(props) =><Proyecto4{...props} />}
                           />
+
                           <Route
-                            
+                            exact
                             path="/Home.js"
                             component={(props) =><Home{...props} />}
                           />
-                      
+                      </Switch> 
                     </div>
                 </Col>
               </Row>
-      </Container> 
+            </Container> 
       </Router> 
     </div>
   );

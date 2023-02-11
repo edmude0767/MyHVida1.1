@@ -8,10 +8,10 @@ function Home() {
   return (
     
       
-      <><><><h1>Proyectos Desarrollados</h1></><>
+      <><><><h1>Logros y reconocimientos</h1></><>
       <br />
-      <Button variant="outline-primary" href="./Excel.js">Presentacion Ventas</Button>{' '}
-      <Button variant="outline-secondary" href="./edit-student">Estadistica Criminal</Button>{' '}
+      <Button variant="outline-primary" href="./Excel.js">Gestion de Riesgos Acces</Button>{' '}
+      <Button variant="outline-secondary" href="./edit-student">Gestion de Riesgos Excel</Button>{' '}
       <Button variant="outline-success" href="./Proyecto1.js">Diagrama de Gantt Power BI</Button>{' '}
       <Button variant="outline-warning" href="./Proyecto2.js">Proyecto 4</Button>{' '}
       <Button variant="outline-danger" href="./Proyecto3.js">Proyecto 5 </Button>{' '}
